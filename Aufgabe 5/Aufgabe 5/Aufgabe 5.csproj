@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tanne.cs" />
     <Compile Include="Tannenbaum.cs">
       <SubType>Form</SubType>
     </Compile>

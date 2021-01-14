@@ -1,5 +1,10 @@
 C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\obj\Debug\Aufgabe 5.csprojAssemblyReference.cache
-C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\obj\Debug\Aufgabe_5.Form1.resources
 C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\obj\Debug\Aufgabe_5.Properties.Resources.resources
 C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\obj\Debug\Aufgabe 5.csproj.GenerateResource.cache
 C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\obj\Debug\Aufgabe 5.csproj.CoreCompileInputs.cache
+C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\bin\Debug\Aufgabe 5.exe.config
+C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\bin\Debug\Aufgabe 5.exe
+C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\bin\Debug\Aufgabe 5.pdb
+C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\obj\Debug\Aufgabe_5.Tannenbaum.resources
+C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\obj\Debug\Aufgabe 5.exe
+C:\Users\Gian Federspiel\source\repos\Aufgabe 5\Aufgabe 5\obj\Debug\Aufgabe 5.pdb

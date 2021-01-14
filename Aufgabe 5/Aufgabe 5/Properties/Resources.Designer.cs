@@ -3,7 +3,7 @@
 //     Dieser Code wurde von einem Tool generiert.
 //     Laufzeitversion: 4.0.30319.42000
 //
-//     Änderungen an dieser Datei können fehlerhaftes Verhalten verursachen und gehen verloren, wenn
+//     Änderungen an dieser Datei koennen fehlerhaftes Verhalten verursachen und gehen verloren, wenn
 //     der Code neu generiert wird.
 // </auto-generated>
 //------------------------------------------------------------------------------
