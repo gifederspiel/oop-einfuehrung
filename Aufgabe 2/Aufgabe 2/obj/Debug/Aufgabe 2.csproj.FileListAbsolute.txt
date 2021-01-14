@@ -1,0 +1,10 @@
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\obj\Debug\Aufgabe 2.csprojAssemblyReference.cache
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\obj\Debug\Aufgabe_2.Properties.Resources.resources
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\obj\Debug\Aufgabe 2.csproj.GenerateResource.cache
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\obj\Debug\Aufgabe 2.csproj.CoreCompileInputs.cache
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\bin\Debug\Aufgabe 2.exe.config
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\bin\Debug\Aufgabe 2.exe
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\bin\Debug\Aufgabe 2.pdb
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\obj\Debug\Aufgabe 2.exe
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\obj\Debug\Aufgabe 2.pdb
+C:\Users\Gian Federspiel\source\repos\Aufgabe 2\Aufgabe 2\obj\Debug\Aufgabe_2.aufg2.resources

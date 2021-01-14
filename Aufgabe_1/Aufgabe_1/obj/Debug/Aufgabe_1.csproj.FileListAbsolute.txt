@@ -1,0 +1,10 @@
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\obj\Debug\Aufgabe_1.csprojAssemblyReference.cache
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\obj\Debug\Aufgabe_1.Properties.Resources.resources
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\obj\Debug\Aufgabe_1.csproj.GenerateResource.cache
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\obj\Debug\Aufgabe_1.csproj.CoreCompileInputs.cache
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\obj\Debug\Aufgabe_1.aufg1.resources
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\bin\Debug\Aufgabe_1.exe.config
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\bin\Debug\Aufgabe_1.exe
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\bin\Debug\Aufgabe_1.pdb
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\obj\Debug\Aufgabe_1.exe
+c:\users\gian federspiel\source\repos\Aufgabe_1\Aufgabe_1\obj\Debug\Aufgabe_1.pdb
