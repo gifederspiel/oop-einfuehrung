@@ -12,7 +12,7 @@ namespace Aufgabe_5
 {
     public partial class Tannenbaum : Form
     {
-        public Tanne zeichnung = new Tanne();
+        public Tanne t = new Tanne();
         public Tannenbaum()
         {
             InitializeComponent();
@@ -20,16 +20,18 @@ namespace Aufgabe_5
 
         private void zeichnen_Click(object sender, EventArgs e)
         {
-            int breite = Convert.ToInt32(inputbreite.Text);
-            int stammhoehe = Convert.ToInt32(inputstammhoehe.Text);
-            int kronenhoehe = Convert.ToInt32(inputkronenhoehe.Text);
+            
 
-            if (breite > 0 && stammhoehe > 0 && kronenhoehe >0)
+            t.Stammbreite = Convert.ToInt32(inputbreite.Text);
+            t.Stammhoehe = Convert.ToInt32(inputstammhoehe.Text);
+            t.Kronenhoehe = Convert.ToInt32(inputkronenhoehe.Text);
+
+            if (t.Stammbreite > 0 && t.Stammhoehe > 0 && t.Kronenhoehe >0)
             {
-                zeichnung.Zeichnen(kronenhoehe, stammhoehe, breite);
+                t.Zeichnen();
             }
 
-            ausgabe.Text = zeichnung.Ergebnis;
+            ausgabe.Text = t.Ergebnis;
         }
     }
 }

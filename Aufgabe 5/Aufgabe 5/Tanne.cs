@@ -10,36 +10,75 @@ namespace Aufgabe_5
     {
         public string _zeichnung;
 
-        public void Zeichnen(int hk, int hs, int b)
+        int stammbreite;
+        public int Stammbreite
         {
-            for (int i = 0; i < hk*2; i+=2)
+            get
             {
-                for (int j = 1; j < b-i; i+=2)
+                return stammbreite;
+            }
+            set
+            {
+                stammbreite = value;
+            }
+        }
+        int kronenhoehe;
+        public int Kronenhoehe
+        {
+            get
+            {
+                return kronenhoehe;
+            }
+            set
+            {
+                kronenhoehe = value;
+            }
+        }
+        int stammhoehe;
+        public int Stammhoehe
+        {
+            get
+            {
+                return stammhoehe;
+            }
+            set
+            {
+                stammhoehe = value;
+            }
+        }
+
+        public void Zeichnen()
+        {
+            ///Krone
+            int kronenbreite = 2 * kronenhoehe -1;
+            for (int i = 0; i < kronenhoehe*2; i += 2)
+            {
+                for (int j = 0; j < (kronenbreite - i)/2; j++)
                 {
-                    _zeichnung += " ";
+                    _zeichnung += "  ";
                 }
-                for (int j = 1; j < i; i++)
+                for (int k = 0; k <= i; k++)
                 {
                     _zeichnung += "*";
                 }
                 _zeichnung += Environment.NewLine;
-
             }
-            int distanz = 1 + b / 2;
-
-            for (int stamm = 0; stamm < hs*2; stamm += 2)
+            ///Stamm
+            int distanz = 2 * kronenhoehe -1;
+            for (int i = 0; i < stammhoehe; i++)
             {
-                for (int i = 0; i < distanz - b; i++)
+                for (int k = 1; k <= (distanz - stammbreite) / 2; k++)
                 {
-                    _zeichnung += " ";
+                    _zeichnung += "  ";
                 }
-                for (int i = 0; i < b; i++)
+                for (int j = 0; j < stammbreite; j++)
                 {
                     _zeichnung += "*";
                 }
                 _zeichnung += Environment.NewLine;
             }
         }
+
         public string Ergebnis
         {
             get

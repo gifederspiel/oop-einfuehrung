@@ -59,7 +59,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(38, 103);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 25);
+            this.label2.Size = new System.Drawing.Size(138, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Stammhoehe";
             // 
@@ -82,6 +82,7 @@
             // 
             // ausgabe
             // 
+            this.ausgabe.Font = new System.Drawing.Font("Calibri", 19.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ausgabe.Location = new System.Drawing.Point(43, 233);
             this.ausgabe.Multiline = true;
             this.ausgabe.Name = "ausgabe";
@@ -101,7 +102,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(38, 163);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 25);
+            this.label3.Size = new System.Drawing.Size(141, 25);
             this.label3.TabIndex = 9;
             this.label3.Text = "Kronenhoehe";
             // 
