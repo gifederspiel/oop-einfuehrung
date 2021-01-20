@@ -1,0 +1,10 @@
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\bin\Debug\Aufgabe 7.exe.config
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\bin\Debug\Aufgabe 7.exe
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\bin\Debug\Aufgabe 7.pdb
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\obj\Debug\Aufgabe 7.csprojAssemblyReference.cache
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\obj\Debug\Aufgabe_7.wordcount.resources
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\obj\Debug\Aufgabe_7.Properties.Resources.resources
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\obj\Debug\Aufgabe 7.csproj.GenerateResource.cache
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\obj\Debug\Aufgabe 7.csproj.CoreCompileInputs.cache
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\obj\Debug\Aufgabe 7.exe
+C:\Users\Gian Federspiel\source\repos\Aufgabe 7\Aufgabe 7\obj\Debug\Aufgabe 7.pdb
