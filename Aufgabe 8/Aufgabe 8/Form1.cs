@@ -42,6 +42,7 @@ namespace Aufgabe_8
             if (selectedAuto != null)
             {
                 selectedAuto.Driving = true;
+                selectedAuto.SlowDown = false;
                 while (selectedAuto.Driving == true)
                 {
                     selectedAuto.Speed();
@@ -58,23 +59,31 @@ namespace Aufgabe_8
             if (selectedAuto != null)
             {
                 selectedAuto.Driving = false;
+
             }
         }
 
         private void Bremse_MouseDown(object sender, MouseEventArgs e)
         {
+            if (selectedAuto == null)
+            {
+                return;
+            }
             if (selectedAuto != null)
             {
                 selectedAuto.SlowDown = true;
+                selectedAuto.Driving = false;
                 while (selectedAuto.SlowDown == true)
                 {
                     selectedAuto.Bremsen();
                     System.Threading.Thread.Sleep(200);
                     UpdateDisplay();
                     Application.DoEvents();
-
                 }
             }
+            
+            
+            
         }
         private void Bremse_MouseUp(object sender, MouseEventArgs e)
         {
@@ -87,27 +96,10 @@ namespace Aufgabe_8
         public void UpdateDisplay()
         {
             kmh.Text = selectedAuto.CurrentSpeed.ToString();
-            selectedAuto.UpdateGear();
             Gang.Text = selectedAuto.CurrentGear.ToString();
         }
 
-        private void carKey1_Click(object sender, EventArgs e)
-        {
-            if (selectedAuto != null)
-            {
-                if (selectedAuto.MotorGestartet == true)
-                {
-                    selectedAuto.StoppeMotor();
-
-                }
-                else
-                {
-                    selectedAuto.StarteMotor();
-                }
-                SetzeOnOff();
-            }
-            
-        }
+        
 
         private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -115,7 +107,6 @@ namespace Aufgabe_8
             if (selectedAuto != null)
             {
                 outputPS.Text = selectedAuto.PS.ToString() + " PS ";
-
                 SetzeOnOff();
                 UpdateDisplay();
             }
@@ -124,6 +115,24 @@ namespace Aufgabe_8
                 outputPS.Text = "";
 
             }
+        }
+
+        private void carKey1_Click_1(object sender, EventArgs e)
+        {
+            if (selectedAuto != null)
+            {
+                if (carKey1.Checked == true)
+                {
+                    selectedAuto.StarteMotor();
+                }
+                else if (carKey1.Checked == false)
+                {
+                    selectedAuto.StoppeMotor();
+                }
+                
+            }
+            SetzeOnOff();
+
         }
     }
 }

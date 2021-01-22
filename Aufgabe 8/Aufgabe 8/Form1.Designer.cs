@@ -97,6 +97,7 @@
             this.carKey1.Size = new System.Drawing.Size(28, 27);
             this.carKey1.TabIndex = 4;
             this.carKey1.UseVisualStyleBackColor = true;
+            this.carKey1.Click += new System.EventHandler(this.carKey1_Click_1);
             // 
             // Gas
             // 

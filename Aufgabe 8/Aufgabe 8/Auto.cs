@@ -47,7 +47,6 @@ namespace Aufgabe_8
             {
                 return;
             }
-            CurrentSpeed += Acceleration;
             if(CurrentSpeed < MaxSpeed)
             {
                 CurrentSpeed += Acceleration;
@@ -56,17 +55,18 @@ namespace Aufgabe_8
         }
         public void Bremsen()
         {
-            if (CurrentSpeed >= 0)
+            if (CurrentSpeed > 0)
             {
                 CurrentSpeed -= 12;
+                SlowDown = false;
             }
-            else
+            if (MotorGestartet == false)
             {
-                CurrentSpeed = 0;
+                return;
             }
             UpdateGear();
         }
-        public void UpdateGear()
+        private void UpdateGear()
         {
             if (CurrentSpeed >= 0 && CurrentSpeed <= 10)
             {
