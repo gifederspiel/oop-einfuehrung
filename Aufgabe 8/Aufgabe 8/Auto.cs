@@ -8,13 +8,13 @@ namespace Aufgabe_8
 {
     class Auto
     {
-        public bool MotorGestarted { get; private set; }
+        public bool MotorGestartet { get; private set; }
         public bool SlowDown { get; set; }
         public bool Driving { get; set; }
         public int MaxSpeed { get; private set; }
         public int Acceleration { get; private set; }
-        public string Marke { get; }
-        public int PS { get; }
+        public string Marke { get; private set; }
+        public int PS { get; private set; }
         public int CurrentSpeed { get; private set; }
         public int CurrentGear { get; private set; }
         
@@ -30,11 +30,11 @@ namespace Aufgabe_8
         }
         public void StarteMotor()
         {
-            MotorGestarted = true;
+            MotorGestartet = true;
         }
         public void StoppeMotor()
         {
-            MotorGestarted = false;
+            MotorGestartet = false;
         }
 
         public override string ToString()
@@ -43,25 +43,28 @@ namespace Aufgabe_8
         }
         public void Speed()
         {
-            if(MotorGestarted == false)
+            if(MotorGestartet == false)
             {
                 return;
             }
+            CurrentSpeed += Acceleration;
             if(CurrentSpeed < MaxSpeed)
             {
                 CurrentSpeed += Acceleration;
             }
+            UpdateGear();
         }
         public void Bremsen()
         {
-            if (CurrentSpeed > 0)
+            if (CurrentSpeed >= 0)
             {
-                CurrentSpeed -= 7;
+                CurrentSpeed -= 12;
             }
             else
             {
                 CurrentSpeed = 0;
             }
+            UpdateGear();
         }
         public void UpdateGear()
         {

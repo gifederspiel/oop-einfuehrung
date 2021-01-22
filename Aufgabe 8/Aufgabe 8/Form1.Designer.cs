@@ -33,17 +33,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.outputPS = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.carKey1 = new System.Windows.Forms.CheckBox();
             this.Gas = new System.Windows.Forms.Button();
             this.Bremse = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.carKey = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.Gang = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.kmh = new System.Windows.Forms.Label();
             this.hupe = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.carKey = new System.Windows.Forms.CheckBox();
-            this.carKey1 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,6 +89,15 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
+            // carKey1
+            // 
+            this.carKey1.AutoSize = true;
+            this.carKey1.Location = new System.Drawing.Point(6, 59);
+            this.carKey1.Name = "carKey1";
+            this.carKey1.Size = new System.Drawing.Size(28, 27);
+            this.carKey1.TabIndex = 4;
+            this.carKey1.UseVisualStyleBackColor = true;
+            // 
             // Gas
             // 
             this.Gas.Location = new System.Drawing.Point(800, 355);
@@ -123,6 +132,15 @@
             this.groupBox2.Size = new System.Drawing.Size(681, 248);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
+            // 
+            // carKey
+            // 
+            this.carKey.AutoSize = true;
+            this.carKey.Location = new System.Drawing.Point(-55, 10);
+            this.carKey.Name = "carKey";
+            this.carKey.Size = new System.Drawing.Size(28, 27);
+            this.carKey.TabIndex = 10;
+            this.carKey.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -179,24 +197,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(153, 115);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // carKey
-            // 
-            this.carKey.AutoSize = true;
-            this.carKey.Location = new System.Drawing.Point(-55, 10);
-            this.carKey.Name = "carKey";
-            this.carKey.Size = new System.Drawing.Size(28, 27);
-            this.carKey.TabIndex = 10;
-            this.carKey.UseVisualStyleBackColor = true;
-            // 
-            // carKey1
-            // 
-            this.carKey1.AutoSize = true;
-            this.carKey1.Location = new System.Drawing.Point(6, 59);
-            this.carKey1.Name = "carKey1";
-            this.carKey1.Size = new System.Drawing.Size(28, 27);
-            this.carKey1.TabIndex = 4;
-            this.carKey1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

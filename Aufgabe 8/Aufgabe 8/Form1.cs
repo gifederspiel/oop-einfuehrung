@@ -21,38 +21,34 @@ namespace Aufgabe_8
             comboBox.Items.Add(new Auto("Ferari", 370));
 
         }
-        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            selectedAuto = comboBox.SelectedItem as Auto;
-            outputPS.Text = selectedAuto.PS.ToString();
-            if (selectedAuto.MotorGestarted == true)
-            {
-                carKey1.BackColor = Color.Green;
-            }
-            else
-            {
-                carKey1.BackColor = Color.Red;
-            }
-            UpdateDisplay();
-
-        }
+        
         private void hupe_Click(object sender, EventArgs e)
         {
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"c:\hupe.wav");
             player.Play();
         }
-        
+        private void SetzeOnOff()
+        {
+            carKey1.BackColor = Color.Red;
+
+            if (selectedAuto != null && selectedAuto.MotorGestartet)
+                carKey1.BackColor = Color.Green;
+        }
+
+
 
         private void Gas_MouseDown(object sender, MouseEventArgs e)
         {
             if (selectedAuto != null)
             {
                 selectedAuto.Driving = true;
-                while (selectedAuto.Driving)
+                while (selectedAuto.Driving == true)
                 {
                     selectedAuto.Speed();
+                    System.Threading.Thread.Sleep(200);
                     UpdateDisplay();
                     Application.DoEvents();
+                    
                 }
             }
         }
@@ -70,9 +66,10 @@ namespace Aufgabe_8
             if (selectedAuto != null)
             {
                 selectedAuto.SlowDown = true;
-                while (selectedAuto.SlowDown)
+                while (selectedAuto.SlowDown == true)
                 {
                     selectedAuto.Bremsen();
+                    System.Threading.Thread.Sleep(200);
                     UpdateDisplay();
                     Application.DoEvents();
 
@@ -94,11 +91,11 @@ namespace Aufgabe_8
             Gang.Text = selectedAuto.CurrentGear.ToString();
         }
 
-        private void carKey1_CheckedChanged(object sender, EventArgs e)
+        private void carKey1_Click(object sender, EventArgs e)
         {
             if (selectedAuto != null)
             {
-                if (selectedAuto.MotorGestarted == true)
+                if (selectedAuto.MotorGestartet == true)
                 {
                     selectedAuto.StoppeMotor();
 
@@ -107,9 +104,26 @@ namespace Aufgabe_8
                 {
                     selectedAuto.StarteMotor();
                 }
-                UpdateDisplay();
+                SetzeOnOff();
             }
             
+        }
+
+        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            selectedAuto = comboBox.SelectedItem as Auto;
+            if (selectedAuto != null)
+            {
+                outputPS.Text = selectedAuto.PS.ToString() + " PS ";
+
+                SetzeOnOff();
+                UpdateDisplay();
+            }
+            else
+            {
+                outputPS.Text = "";
+
+            }
         }
     }
 }
